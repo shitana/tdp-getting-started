@@ -1,15 +1,15 @@
 [submodule "ansible_collections/tosit/tdp"]
 	path = ansible_collections/tosit/tdp
-	url = https://github.com/TOSIT-IO/tdp-collection
+	url = git@github.com:shitana/tdp-collection
 [submodule "ansible_collections/tosit/tdp_extra"]
 	path = ansible_collections/tosit/tdp_extra
-	url = https://github.com/TOSIT-IO/tdp-collection-extras
+	url = git@github.com:shitana/tdp-collection-extras
 [submodule "tdp-vagrant"]
 	path = tdp-vagrant
-	url = https://github.com/TOSIT-IO/tdp-vagrant.git
+	url = git@github.com:shitana/tdp-vagrant.git
 [submodule "ansible_collections/tosit/tdp_prerequisites"]
 	path = ansible_collections/tosit/tdp_prerequisites
-	url = https://github.com/TOSIT-IO/tdp-collection-prerequisites.git
+	url = git@github.com:shitana/tdp-collection-prerequisites.git
 [submodule "tdp-lib"]
 	path = tdp-lib
-	url = https://github.com/TOSIT-IO/tdp-lib
+	url = git@github.com:shitana/tdp-lib.git

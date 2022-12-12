@@ -16,6 +16,26 @@ kadmin_password: admin123
 kadmind_server: "{{ groups['kdc'][0] | tosit.tdp.access_fqdn(hostvars) }}"
 kdc_server: "{{ groups['kdc'][0] | tosit.tdp.access_fqdn(hostvars) }} "
 
+packages_ldap_kerberos_Centos:
+  - openldap-servers
+  - openldap-clients
+  - krb5-workstation
+  - krb5-libs
+  - krb5-server
+  - krb5-server-ldap
+
+packages_ldap_kerberos_Ubuntu:
+  - slapd
+  - ldap-utils
+  - libnss-ldap
+  - libpam-ldap 
+  - krb5-user
+  - krb5-kdc
+  - krb5-admin-server
+  - krb5-user
+  - krb5-kdc-ldap
+  - sssd-krb5
+  
 ca_name: "tdp_ca"
 ca_file: "{{ certs_dir }}/tdp_ca.crt"
 
