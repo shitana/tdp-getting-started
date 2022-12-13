@@ -35,7 +35,7 @@ packages_ldap_kerberos_Ubuntu:
   - krb5-user
   - krb5-kdc-ldap
   - sssd-krb5
-  
+
 ca_name: "tdp_ca"
 ca_file: "{{ certs_dir }}/tdp_ca.crt"
 
